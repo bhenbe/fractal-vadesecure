@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+p {
+  max-width: 66ch;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.visually-hidden .visually-hidden a:focus,
+.visually-hidden .visually-hidden input:focus,
+.visually-hidden .visually-hidden button:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+@media print {
+  body>*:not(main) {
+    display: none;
+  }
+  a[href^="http"]:not([href*="mywebsite.com"])::after {
+    content: " (" attr(href) ")";
+  }
+}
+
+/*** Vade Secure Colors ***/
+
+/*** Brand Colors ***/
+
+/*** Base Colors ***/
+
+/** @import url("https://use.typekit.net/cew4qah.css"); **/
+
+body {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1>span,
+h2>span,
+h3>span,
+h4>span,
+h5>span,
+h6>span {
+  display: block;
+}
+
+a {
+  color: #D61F29;
+}
+
+a.e-main {
+  position: relative;
+  display: inline-block;
+  font-size: .9em;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a.e-main::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 44px;
+  height: 8px;
+  content: "";
+  background-color: #F0EFEB;
+  transition: width ease 1s;
+}
+
+a.e-main:hover::before,
+a.e-main:active::before,
+a.e-main:focus::before {
+  width: 100%;
+}
+
+.e-button {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: .9em;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color ease 1s;
+  background-color: #D61F29;
+  color: #FFF;
+}
+
+.e-button:hover,
+.e-button:active,
+.e-button:focus {
+  background-color: #a91920;
+}
+
+.e-button--alt {
+  background-color: #3B3434;
+}
+
+.e-button--alt:hover,
+.e-button--alt:active,
+.e-button--alt:focus {
+  background-color: #201c1c;
+}

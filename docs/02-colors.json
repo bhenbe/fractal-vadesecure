@@ -1,0 +1,14 @@
+// docs/02-colors.json
+{
+    "context": {
+        "brand_colors": [{
+            "name": "Brand Gray",
+            "var": "color-brand-gray",
+            "hex": "#5f5f60"
+        },{
+            "name": "Brand Red",
+            "var": "color-brand-red",
+            "hex": "#d61f29"
+        }]
+    }
+}

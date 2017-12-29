@@ -1,0 +1,16 @@
+{
+    "title": "Boutons",
+    "status": "wip",
+    "context": {
+        "text": "Ceci est un bouton"
+    },
+    "variants": [
+        {
+            "name": "Alternatif",
+            "context": {
+                "modifier": "e-button--alt",
+                "text": "Ceci est un bouton alternatif"
+            }
+        }
+    ]
+}
