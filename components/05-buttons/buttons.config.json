@@ -1,15 +1,21 @@
 {
     "title": "Boutons",
     "status": "ready",
-    "context": {
-        "text": "Ceci est un bouton"
-    },
+    "default": "default",
+    "context": {},
     "variants": [
         {
-            "name": "Alternatif",
+            "name": "default",
+            "label": "Bouton principal",
             "context": {
-                "modifier": "e-button--alt",
-                "text": "Ceci est un bouton alternatif"
+                "text": "Ceci est un bouton principal"
+            }
+        },
+        {
+            "name": "alt",
+            "label": "Bouton secondaire",
+            "context": {
+                "text": "Ceci est un bouton secondaire"
             }
         }
     ]
