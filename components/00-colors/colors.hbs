@@ -1,0 +1,10 @@
+<ul class="color-cards-list">
+{{#each colors}}
+    <li>
+        <span class="color-viewer" style="background-color: {{ code }}"></span>
+        <span class="color-label">
+            {{ code }}<br>{{ name }}
+        </span>
+    </li>
+{{/each}}
+</ul>

@@ -1,0 +1,14 @@
+{
+    "title": "Typographie",
+    "status": "ready",
+    "context": {
+        "heading1": "Titre N°1",
+        "heading2": "Titre N°2",
+        "heading3": "Titre N°3",
+        "heading4": "Titre N°4",
+        "heading5": "Titre N°5",
+        "heading6": "Titre N°6",
+        "paragraph": "La solution de lutte contre les malware s’appuie sur l’analyse de l’origine de l’e-mail (IP reputation), de son contenu (code des pièces jointes, fingerprint, sandboxing) et du contexte de la menace grâce à l’Intelligence Artificielle pour une efficacité optimale. La détection zero-hour et la résistance aux malwares polymorphiques en sont les principales caractéristiques.",
+        "link": "Ceci est un lien"
+    }
+}

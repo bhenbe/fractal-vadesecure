@@ -1,0 +1,63 @@
+body{
+	font-family: "proxima-nova",sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+	position: relative;
+	margin-top: 0;
+	padding-bottom: 0.7em;//32px;
+	font-weight: 700;
+	line-height: 1.1;
+	
+	& > span{
+		display: block;
+	}
+	
+	&::before{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		display: block;
+		width: 3ch;
+		height: 0.3em;//10px;
+		content: "";
+		background-color: $clr-red;
+	}
+}
+
+h1{
+	font-size: 2.44em;//44px;
+}
+
+h2{
+	font-size: 2em;//36px;
+}
+
+h3{
+	font-size: 1.55em;//28px;
+}
+
+h4{
+	font-size: 1.33em;//24px;
+}
+
+h5{
+	font-size: 1.16em;//21px;
+}
+
+h6{
+	font-size: 1em;//18px;
+}
+
+a{ 
+	color: $clr-red;
+	transition: color ease .4s;
+	
+	&:hover,
+	&:active,
+	&:focus{
+		color: $clr-gray-dark;
+	}
+}

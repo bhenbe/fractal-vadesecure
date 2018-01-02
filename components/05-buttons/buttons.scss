@@ -11,6 +11,17 @@
 	&:hover,
 	&:active,
 	&:focus{
+		color: $clr-white;
 		background-color: darken($clr-red, 10%);
+	}
+	
+	&--alt{
+		background-color: $clr-gray-dark;
+		
+		&:hover,
+		&:active,
+		&:focus{
+			background-color: darken($clr-gray-dark, 10%);
+		}
 	}
 }

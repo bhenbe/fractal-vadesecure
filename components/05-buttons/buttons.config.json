@@ -1,6 +1,6 @@
 {
     "title": "Boutons",
-    "status": "wip",
+    "status": "ready",
     "context": {
         "text": "Ceci est un bouton"
     },

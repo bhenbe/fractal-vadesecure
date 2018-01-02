@@ -1,0 +1,13 @@
+{
+    "title": "Palettes couleur",
+    "status": "ready",
+    "context": {
+        "colors": [{
+            "name": "$clr-brand-red",
+            "code": "#D61F29"
+        },{
+            "name": "$clr-brand-gray",
+            "code": "#5F5F60"
+        }]
+    }
+}
