@@ -1,0 +1,22 @@
+{
+    "title": "Typographie",
+    "status": "ready",
+    "default": "default",
+    "context": {},
+    "variants": [
+        {
+            "name": "default",
+            "label": "Titre de niveau 1",
+            "context": {
+                "text": "Ceci est un titre de niveau 1"
+            }
+        },
+        {
+            "name": "h2",
+            "label": "Titre de niveau 2",
+            "context": {
+                "text": "Ceci est un titre de niveau 2"
+            }
+        }
+    ]
+}
