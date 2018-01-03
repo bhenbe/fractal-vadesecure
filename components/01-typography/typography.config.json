@@ -17,6 +17,48 @@
             "context": {
                 "text": "Ceci est un titre de niveau 2"
             }
+        },
+        {
+            "name": "h3",
+            "label": "Titre de niveau 3",
+            "context": {
+                "text": "Ceci est un titre de niveau 3"
+            }
+        },
+        {
+            "name": "h4",
+            "label": "Titre de niveau 4",
+            "context": {
+                "text": "Ceci est un titre de niveau 4"
+            }
+        },
+        {
+            "name": "h5",
+            "label": "Titre de niveau 5",
+            "context": {
+                "text": "Ceci est un titre de niveau 5"
+            }
+        },
+        {
+            "name": "h6",
+            "label": "Titre de niveau 6",
+            "context": {
+                "text": "Ceci est un titre de niveau 6"
+            }
+        },
+        {
+            "name": "p",
+            "label": "Paragraphe",
+            "context": {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum id lacus quis volutpat. Suspendisse dictum eros vitae nunc mattis molestie. Sed placerat dolor id enim dignissim, a finibus nunc maximus. Vivamus sed nisl nec justo consequat malesuada ac vitae sem. Vivamus consequat vitae orci auctor gravida."
+            }
+        },
+        {
+            "name": "a",
+            "label": "Lien",
+            "context": {
+                "text": "Ceci est un hyperlien"
+            }
         }
     ]
 }
