@@ -1,4 +1,4 @@
-/** @import url("https://use.typekit.net/cew4qah.css"); **/
+@import url("https://use.typekit.net/cew4qah.css"); 
 
 body{
 	font-family: "proxima-nova",sans-serif;
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
 		display: block;
 	}
 	
-	&::before{
+	&.with-sub::before{
 		position: absolute;
 		left: 0;
 		bottom: 0;

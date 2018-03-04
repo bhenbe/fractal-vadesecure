@@ -43,7 +43,7 @@ p {
 
 /*** Base Colors ***/
 
-/** @import url("https://use.typekit.net/cew4qah.css"); **/
+@import url("https://use.typekit.net/cew4qah.css"); 
 
 body {
   font-family: "proxima-nova", sans-serif;

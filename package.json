@@ -1,6 +1,13 @@
 {
-  "name": "vade-secure-components",
-  "version": "0.1.0",
+  "name": "VadeSecure fractal documentation",
+  "version": "1.0.0",
+  "description": "VadeSecure Fractal base installation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@frctl/fractal": "^1.1.7"
   }
