@@ -1,13 +1,36 @@
 {
-    "title": "Palettes couleur",
+    "title": "Colors",
     "status": "ready",
     "context": {
-        "colors": [{
+        "brand-colors": [{
             "name": "$clr-brand-red",
             "code": "#D61F29"
         },{
             "name": "$clr-brand-gray",
             "code": "#5F5F60"
+        }],
+        "gray-colors": [{
+            "name": "$clr-gray-lighter",
+            "code": "#F2F2F2"
+        },{
+            "name": "$clr-gray-light",
+            "code": "#F0EFEB"
+        },{
+            "name": "$clr-gray",
+            "code": "#5F5F60"
+        },{
+            "name": "$clr-gray-dark",
+            "code": "#3B3434"
+        },{
+            "name": "$clr-gray-darker",
+            "code": "#1A1818"
+        }],
+        "red-colors": [{
+            "name": "$clr-red",
+            "code": "#D61F29"
+        },{
+            "name": "$clr-red-dark",
+            "code": "#A81E25"
         }]
     }
 }

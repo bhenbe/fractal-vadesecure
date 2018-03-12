@@ -1,19 +1,19 @@
 {
-    "title": "Boutons",
+    "title": "Buttons",
     "status": "ready",
     "default": "default",
     "context": {},
     "variants": [
         {
             "name": "default",
-            "label": "Bouton principal",
+            "label": "Primary button",
             "context": {
                 "text": "Ceci est un bouton principal"
             }
         },
         {
             "name": "alt",
-            "label": "Bouton secondaire",
+            "label": "Alt button",
             "context": {
                 "text": "Ceci est un bouton secondaire"
             }

@@ -1,172 +1,81 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-p {
-  max-width: 66ch;
-}
-
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-.visually-hidden .visually-hidden a:focus,
-.visually-hidden .visually-hidden input:focus,
-.visually-hidden .visually-hidden button:focus {
-  position: static;
-  width: auto;
-  height: auto;
-}
-
-@media print {
-  body>*:not(main) {
-    display: none;
-  }
-  a[href^="http"]:not([href*="mywebsite.com"])::after {
-    content: " (" attr(href) ")";
-  }
-}
-
-/*** Vade Secure Colors ***/
-
 /*** Brand Colors ***/
-
 /*** Base Colors ***/
-
-@import url("https://use.typekit.net/cew4qah.css"); 
-
+@import url("https://use.typekit.net/cew4qah.css");
 body {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "proxima-nova",sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
-}
+  color: #3B3434; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   position: relative;
   margin-top: 0;
   padding-bottom: 0.7em;
   font-weight: 700;
   line-height: 1.1;
-}
-
-h1>span,
-h2>span,
-h3>span,
-h4>span,
-h5>span,
-h6>span {
-  display: block;
-}
-
-h1::before,
-h2::before,
-h3::before,
-h4::before,
-h5::before,
-h6::before {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: block;
-  width: 3ch;
-  height: 0.3em;
-  content: "";
-  background-color: #D61F29;
-}
+  color: #3B3434; }
+  h1 > span, h2 > span, h3 > span, h4 > span, h5 > span, h6 > span {
+    display: block; }
+  h1.with-sub::before, h2.with-sub::before, h3.with-sub::before, h4.with-sub::before, h5.with-sub::before, h6.with-sub::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 3ch;
+    height: 0.3em;
+    content: "";
+    background-color: #D61F29; }
 
 h1 {
-  font-size: 2.44em;
-}
+  font-size: 2.44em; }
 
 h2 {
-  font-size: 2em;
-}
+  font-size: 2em; }
 
 h3 {
-  font-size: 1.55em;
-}
+  font-size: 1.55em; }
 
 h4 {
-  font-size: 1.33em;
-}
+  font-size: 1.33em; }
 
 h5 {
-  font-size: 1.16em;
-}
+  font-size: 1.16em; }
 
 h6 {
-  font-size: 1em;
-}
+  font-size: 1em; }
+
+p {
+  max-width: 64ch; }
 
 a {
   color: #D61F29;
-  transition: color ease .4s;
-}
-
-a:hover,
-a:active,
-a:focus {
-  color: #3B3434;
-}
-
-.container {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.grid {
-  display: grid;
-}
+  transition: color ease .4s; }
+  a:hover, a:active, a:focus {
+    color: #3B3434; }
 
 a.e-main {
   position: relative;
   display: inline-block;
   font-size: .9em;
+  color: #3B3434;
   padding-bottom: 1rem;
   text-transform: uppercase;
-  text-decoration: none;
-}
-
-a.e-main::before {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 44px;
-  height: 8px;
-  content: "";
-  background-color: #F0EFEB;
-  transition: all ease .4s;
-}
-
-a.e-main:hover,
-a.e-main:active,
-a.e-main:focus {
-  color: #5F5F60;
-}
-
-a.e-main:hover::before,
-a.e-main:active::before,
-a.e-main:focus::before {
-  width: 100%;
-  background-color: #D61F29;
-}
+  text-decoration: none; }
+  a.e-main::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 44px;
+    height: 8px;
+    content: "";
+    background-color: #F0EFEB;
+    transition: all ease .4s; }
+  a.e-main:hover, a.e-main:active, a.e-main:focus {
+    color: #5F5F60; }
+    a.e-main:hover::before, a.e-main:active::before, a.e-main:focus::before {
+      width: 100%;
+      background-color: #D61F29; }
 
 .e-button {
   display: inline-block;
@@ -176,98 +85,69 @@ a.e-main:focus::before {
   text-decoration: none;
   transition: background-color ease 1s;
   background-color: #D61F29;
-  color: #FFF;
-}
-
-.e-button:hover,
-.e-button:active,
-.e-button:focus {
-  color: #FFF;
-  background-color: #a91920;
-}
-
-.e-button--alt {
-  background-color: #3B3434;
-}
-
-.e-button--alt:hover,
-.e-button--alt:active,
-.e-button--alt:focus {
-  background-color: #201c1c;
-}
+  color: #FFF; }
+  .e-button:hover, .e-button:active, .e-button:focus {
+    color: #FFF;
+    background-color: #a91920; }
+  .e-button--alt {
+    background-color: #3B3434; }
+    .e-button--alt:hover, .e-button--alt:active, .e-button--alt:focus {
+      background-color: #201c1c; }
 
 .product-grid {
   background-color: #F0EFEB;
-  padding: 44px 16px;
-}
-
-@media (min-width: 640px) {
-  .product-grid {
-    padding: 44px;
-  }
-}
-
-.product-grid .grid {
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-gap: 1px;
-  border: 1px solid transparent;
-}
-
-@media (min-width: 1098px) {
+  padding: 44px 16px; }
+  @media screen and (min-width: 40rem) {
+    .product-grid {
+      padding: 44px; } }
   .product-grid .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.product-grid .product-item {
-  position: relative;
-  margin: -1px;
-  padding: 32px;
-  background-color: #fff;
-  border: 1px solid #c4c0b1;
-  transition: transform ease 1s, border-color ease 1s;
-  z-index: 50;
-}
-
-@media (min-width: 640px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+    border: 1px solid transparent; }
+    @media screen and (min-width: 50rem) {
+      .product-grid .grid {
+        grid-template-columns: 1fr 1fr; } }
+  @media screen and (min-width: 50rem) {
+    .product-grid.product-grid--three .grid {
+      grid-template-columns: 1fr; } }
+  @media screen and (min-width: 64rem) {
+    .product-grid.product-grid--three .grid {
+      grid-template-columns: 1fr 1fr 1fr; } }
   .product-grid .product-item {
-    padding: 44px 160px 44px 44px;
-  }
-}
-
-.product-grid .product-item p {
-  max-width: 36ch;
-  line-height: 1.2;
-  margin-bottom: 40px;
-}
-
-.product-grid .product-item a {
-  display: inline-block;
-  padding: 4px 26px;
-  text-transform: uppercase;
-  color: #3B3434;
-  text-decoration: none;
-  font-size: .9em;
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICA8cGF0aCBkPSJNMTkuNDA1LjczNEw1LjM4MyAyNy4xOUguODc4TDE1LjA2LjczeiIgZmlsbD0iI0Q2MUYyOSIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
-}
-
-.product-grid .product-item:hover {
-  color: #FFF;
-  background-color: #1A1818;
-  border-color: #1A1818;
-  box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.1);
-  z-index: 51;
-}
-
-@media (min-width: 640px) {
-  .product-grid .product-item:hover {
-    transform: scale(1.1);
-  }
-}
-
-.product-grid .product-item:hover a {
-  color: #FFF;
-}
+    position: relative;
+    margin: -1px;
+    padding: 32px;
+    background-color: #fff;
+    border: 1px solid #c4c0b1;
+    transition: transform ease 1s, border-color ease 1s;
+    z-index: 50; }
+    @media screen and (min-width: 40rem) {
+      .product-grid .product-item {
+        padding: 44px; } }
+    .product-grid .product-item p {
+      max-width: 36ch;
+      line-height: 1.2;
+      margin-bottom: 40px; }
+    .product-grid .product-item a {
+      display: inline-block;
+      padding: 4px 26px;
+      text-transform: uppercase;
+      color: #3B3434;
+      text-decoration: none;
+      font-size: .9em;
+      background-repeat: no-repeat;
+      background-position: top left;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICA8cGF0aCBkPSJNMTkuNDA1LjczNEw1LjM4MyAyNy4xOUguODc4TDE1LjA2LjczeiIgZmlsbD0iI0Q2MUYyOSIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+); }
+    .product-grid .product-item:hover {
+      color: #FFF;
+      background-color: #1A1818;
+      border-color: #1A1818;
+      box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.1);
+      z-index: 51; }
+      @media screen and (min-width: 40rem) {
+        .product-grid .product-item:hover {
+          transform: scale(1.1); } }
+      .product-grid .product-item:hover h1, .product-grid .product-item:hover h2, .product-grid .product-item:hover h3, .product-grid .product-item:hover h4, .product-grid .product-item:hover h5, .product-grid .product-item:hover h6, .product-grid .product-item:hover a {
+        color: #FFF; }

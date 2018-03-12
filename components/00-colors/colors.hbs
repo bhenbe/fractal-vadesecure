@@ -1,5 +1,33 @@
+<h2>Brand colors</h2>
+
 <ul class="color-cards-list">
-{{#each colors}}
+{{#each brand-colors}}
+    <li>
+        <span class="color-viewer" style="background-color: {{ code }}"></span>
+        <span class="color-label">
+            {{ code }}<br>{{ name }}
+        </span>
+    </li>
+{{/each}}
+</ul>
+
+<h2>Gray</h2>
+
+<ul class="color-cards-list">
+{{#each gray-colors}}
+    <li>
+        <span class="color-viewer" style="background-color: {{ code }}"></span>
+        <span class="color-label">
+            {{ code }}<br>{{ name }}
+        </span>
+    </li>
+{{/each}}
+</ul>
+
+<h2>Red</h2>
+
+<ul class="color-cards-list">
+{{#each red-colors}}
     <li>
         <span class="color-viewer" style="background-color: {{ code }}"></span>
         <span class="color-label">

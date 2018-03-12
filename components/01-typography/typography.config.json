@@ -1,12 +1,12 @@
 {
-    "title": "Typographie",
+    "title": "Typography",
     "status": "ready",
     "default": "default",
     "context": {},
     "variants": [
         {
             "name": "default",
-            "label": "Titres",
+            "label": "Headings",
             "context": {
                 "h1": "Ceci est un titre de niveau 1",
                 "h2": "Ceci est un titre de niveau 2",
@@ -18,7 +18,7 @@
         },
         {
             "name": "h-with-sub",
-            "label": "Titres alternatifs",
+            "label": "Alt Headings",
             "context": {
                 "h1": "Ceci est un titre de niveau 1",
                 "h2": "Ceci est un titre de niveau 2",
@@ -30,14 +30,14 @@
         },
         {
             "name": "p",
-            "label": "Paragraphe",
+            "label": "Paragraph",
             "context": {
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum id lacus quis volutpat. Suspendisse dictum eros vitae nunc mattis molestie. Sed placerat dolor id enim dignissim, a finibus nunc maximus. Vivamus sed nisl nec justo consequat malesuada ac vitae sem. Vivamus consequat vitae orci auctor gravida."
             }
         },
         {
             "name": "a",
-            "label": "Lien",
+            "label": "Link",
             "context": {
                 "text": "Ceci est un hyperlien"
             }
