@@ -3,27 +3,30 @@
     "status": "ready",
     "context": {
         "brand-colors": [{
-            "name": "$clr-brand-red",
+            "name": "$clr-red",
             "code": "#D61F29"
         },{
-            "name": "$clr-brand-gray",
+            "name": "$clr-gray",
             "code": "#5F5F60"
         }],
         "gray-colors": [{
-            "name": "$clr-gray-lighter",
+            "name": "$clr-gray-lightest",
             "code": "#F2F2F2"
         },{
-            "name": "$clr-gray-light",
-            "code": "#F0EFEB"
+            "name": "$clr-gray-red-light",
+            "code": "#f0efeb"
+        },{
+            "name": "$clr-gray-red-medium",
+            "code": "#cdccc6"
         },{
             "name": "$clr-gray",
             "code": "#5F5F60"
         },{
             "name": "$clr-gray-dark",
-            "code": "#3B3434"
+            "code": "#3b3434"
         },{
-            "name": "$clr-gray-darker",
-            "code": "#1A1818"
+            "name": "$clr-gray-darkest",
+            "code": "#1a1818"
         }],
         "red-colors": [{
             "name": "$clr-red",
@@ -31,6 +34,56 @@
         },{
             "name": "$clr-red-dark",
             "code": "#A81E25"
+        }],
+        "green-colors": [{
+            "name": "$clr-green-dark",
+            "code": "#459d50"
+        },{
+            "name": "$clr-green",
+            "code": "#50b55f"
+        }],
+        "illustration-colors": [{
+            "name": "$clr-blue-dark",
+            "code": "#4b7d9b"
+        },{
+            "name": "$clr-blue",
+            "code": "#679ec8"
+        },{
+            "name": "$clr-green-dark",
+            "code": "#459d50"
+        },{
+            "name": "$clr-green",
+            "code": "#50b55f"
+        },{
+            "name": "$clr-orange-dark",
+            "code": "#db6d22"
+        },{
+            "name": "$clr-orange",
+            "code": "#ef8c49"
+        },{
+            "name": "$clr-red-dark",
+            "code": "#c1444a"
+        },{
+            "name": "$clr-red-darker",
+            "code": "#a23035"
+        },{
+            "name": "$clr-red-darkest",
+            "code": "#802a2e"
+        },{
+            "name": "$clr-red-lighter",
+            "code": "#eb7272"
+        },{
+            "name": "$clr-red-lightest",
+            "code": "#f69696"
+        },{
+            "name": "$clr-red-medium",
+            "code": "#e25455"
+        },{
+            "name": "$clr-yellow-dark",
+            "code": "#dd9d36"
+        },{
+            "name": "$clr-yellow",
+            "code": "#ffbb43"
         }]
     }
 }

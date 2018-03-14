@@ -36,3 +36,29 @@
     </li>
 {{/each}}
 </ul>
+
+<h2>Green</h2>
+
+<ul class="color-cards-list">
+{{#each green-colors}}
+    <li>
+        <span class="color-viewer" style="background-color: {{ code }}"></span>
+        <span class="color-label">
+            {{ code }}<br>{{ name }}
+        </span>
+    </li>
+{{/each}}
+</ul>
+
+<h2>Illustration</h2>
+
+<ul class="color-cards-list">
+{{#each illustration-colors}}
+    <li>
+        <span class="color-viewer" style="background-color: {{ code }}"></span>
+        <span class="color-label">
+            {{ code }}<br>{{ name }}
+        </span>
+    </li>
+{{/each}}
+</ul>
