@@ -1,11 +1,18 @@
+@import url("https://use.typekit.net/cew4qah.css");
+.container {
+  width: 100%;
+  max-width: 64rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto; }
+
 /*** Brand Colors ***/
 /*** Base Colors ***/
-@import url("https://use.typekit.net/cew4qah.css");
 body {
   font-family: "proxima-nova",sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
-  color: #3B3434; }
+  color: #3b3434; }
 
 h1, h2, h3, h4, h5, h6 {
   position: relative;
@@ -13,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0.7em;
   font-weight: 700;
   line-height: 1.1;
-  color: #3B3434; }
+  color: #3b3434; }
   h1 > span, h2 > span, h3 > span, h4 > span, h5 > span, h6 > span {
     display: block; }
   h1.with-sub::before, h2.with-sub::before, h3.with-sub::before, h4.with-sub::before, h5.with-sub::before, h6.with-sub::before {
@@ -51,13 +58,13 @@ a {
   color: #D61F29;
   transition: color ease .4s; }
   a:hover, a:active, a:focus {
-    color: #3B3434; }
+    color: #3b3434; }
 
 a.e-main {
   position: relative;
   display: inline-block;
   font-size: .9em;
-  color: #3B3434;
+  color: #3b3434;
   padding-bottom: 1rem;
   text-transform: uppercase;
   text-decoration: none; }
@@ -77,7 +84,7 @@ a.e-main {
       width: 100%;
       background-color: #D61F29; }
 
-.e-button {
+.button {
   display: inline-block;
   padding: 12px 28px;
   font-size: .9em;
@@ -86,13 +93,67 @@ a.e-main {
   transition: background-color ease 1s;
   background-color: #D61F29;
   color: #FFF; }
-  .e-button:hover, .e-button:active, .e-button:focus {
+  .button:hover, .button:active, .button:focus {
     color: #FFF;
     background-color: #a91920; }
-  .e-button--alt {
-    background-color: #3B3434; }
-    .e-button--alt:hover, .e-button--alt:active, .e-button--alt:focus {
+  .button--alt {
+    background-color: #3b3434; }
+    .button--alt:hover, .button--alt:active, .button--alt:focus {
       background-color: #201c1c; }
+
+.page-header {
+  position: relative;
+  min-height: 100vh;
+  background: #FFF url("https://picsum.photos/1200/800/?random") no-repeat center center;
+  background-size: cover; }
+  .page-header:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    content: "";
+    z-index: 198; }
+  .page-header--gray:before {
+    background-color: rgba(240, 239, 235, 0.9); }
+  .page-header--black {
+    color: #FFF; }
+    .page-header--black:before {
+      background-color: rgba(0, 0, 0, 0.9); }
+    .page-header--black h1 {
+      color: #FFF; }
+  .page-header .container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-flow: column wrap;
+    z-index: 200; }
+    .page-header .container > h1 {
+      max-width: 21ch; }
+    .page-header .container > p {
+      max-width: 44ch; }
+
+.cta-row {
+  background-color: #1A1818;
+  color: #FFF;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .cta-row > .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+  .cta-row__left {
+    width: 50%;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 24px; }
+  .cta-row__right {
+    width: 50%;
+    text-align: right; }
 
 .product-grid {
   background-color: #F0EFEB;
@@ -134,7 +195,7 @@ a.e-main {
       display: inline-block;
       padding: 4px 26px;
       text-transform: uppercase;
-      color: #3B3434;
+      color: #3b3434;
       text-decoration: none;
       font-size: .9em;
       background-repeat: no-repeat;

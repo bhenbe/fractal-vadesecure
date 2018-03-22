@@ -1,0 +1,24 @@
+.cta-row{
+    background-color: $clr-gray-darker;
+    color: $clr-white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    & > .container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    &__left{
+        width: 50%;
+        font-weight: 700;
+        line-height: 1.1;
+        font-size: 24px;
+    }
+
+    &__right{
+        width: 50%;
+        text-align: right;
+    }
+}

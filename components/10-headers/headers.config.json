@@ -1,0 +1,30 @@
+{
+    "title": "Headers",
+    "status": "ready",
+    "default": "default",
+    "context": {},
+    "variants": [
+        {
+            "name": "default",
+            "label": "White header",
+            "context": {
+                "title": "Plus de 220 Millions de Malware et Ransomware bloqués par an",
+                "excerpt": "La solution de lutte contre les malware s’appuie sur l’analyse de l’origine de l’e-mail (IP reputation), de son contenu (code des pièces jointes, fingerprint, sandboxing) et du contexte de la menace grâce à l’Intelligence Artificielle pour une efficacité optimale. La détection zero-hour et la résistance aux malwares polymorphiques en sont les principales caractéristiques."
+            }
+        },{
+            "name": "black",
+            "label": "Black header",
+            "context": {
+                "title": "Plus de 220 Millions de Malware et Ransomware bloqués par an",
+                "excerpt": "La solution de lutte contre les malware s’appuie sur l’analyse de l’origine de l’e-mail (IP reputation), de son contenu (code des pièces jointes, fingerprint, sandboxing) et du contexte de la menace grâce à l’Intelligence Artificielle pour une efficacité optimale. La détection zero-hour et la résistance aux malwares polymorphiques en sont les principales caractéristiques."
+            }
+        },{
+            "name": "gray",
+            "label": "Gray header",
+            "context": {
+                "title": "Plus de 220 Millions de Malware et Ransomware bloqués par an",
+                "excerpt": "La solution de lutte contre les malware s’appuie sur l’analyse de l’origine de l’e-mail (IP reputation), de son contenu (code des pièces jointes, fingerprint, sandboxing) et du contexte de la menace grâce à l’Intelligence Artificielle pour une efficacité optimale. La détection zero-hour et la résistance aux malwares polymorphiques en sont les principales caractéristiques."
+            }
+        }
+    ]
+}
