@@ -2,8 +2,23 @@
     "title": "Calls to action",
     "status": "ready",
     "default": "default",
-    "context": {
-        "text": "Protégez votre messagerie autrement contre le phishing, malware, ransomware et les attaques ciblées",
-        "button": "Demander une démo"
-    }
+    "context": {},
+    "variants": [
+        {
+            "name": "default",
+            "label": "Line",
+            "context": {
+                "text": "Protégez votre messagerie autrement contre le phishing, malware, ransomware et les attaques ciblées",
+                "button": "Demander une démo"
+            }
+        },
+        {
+            "name": "large",
+            "label": "Large",
+            "context": {
+                "text": "Protégez votre messagerie autrement contre le phishing, malware, ransomware et les attaques ciblées",
+                "button": "Demander une démo"
+            }
+        }
+    ]
 }

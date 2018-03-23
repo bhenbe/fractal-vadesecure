@@ -1,0 +1,238 @@
+{
+    "title": "Typography",
+    "status": "ready",
+    "default": "default",
+    "context": {
+        "icons": [
+            {
+                "class": "icon-brain"
+            },{
+                "class": "icon-test-tube"
+            },{
+                "class": "icon-cross-thick"
+            },{
+                "class": "icon-layers"
+            },{
+                "class": "icon-envelope"
+            },{
+                "class": "icon-router"
+            },{
+                "class": "icon-pdf"
+            },{
+                "class": "icon-checkmark-circle-break"
+            },{
+                "class": "icon-cloud-download"
+            },{
+                "class": "icon-tag"
+            },{
+                "class": "icon-inbox-arrow-down"
+            },{
+                "class": "icon-whitelist"
+            },{
+                "class": "icon-blacklist"
+            },{
+                "class": "icon-arrow-down"
+            },{
+                "class": "icon-log-out"
+            },{
+                "class": "icon-checkmark"
+            },{
+                "class": "icon-arrow-right"
+            },{
+                "class": "icon-cup"
+            },{
+                "class": "icon-exit"
+            },{
+                "class": "icon-alert"
+            },{
+                "class": "icon-arrow-left"
+            },{
+                "class": "icon-document"
+            },{
+                "class": "icon-github"
+            },{
+                "class": "icon-advanced-settings-s"
+            },{
+                "class": "icon-opened-lockpad"
+            },{
+                "class": "icon-spear"
+            },{
+                "class": "icon-dashboard-s"
+            },{
+                "class": "icon-domains-s"
+            },{
+                "class": "icon-logs-s"
+            },{
+                "class": "icon-settings-s"
+            },{
+                "class": "icon-statistics-s"
+            },{
+                "class": "icon-calendar-full"
+            },{
+                "class": "icon-checkmark-circle"
+            },{
+                "class": "icon-clock"
+            },{
+                "class": "icon-cross-circle"
+            },{
+                "class": "icon-funnel"
+            },{
+                "class": "icon-power"
+            },{
+                "class": "icon-enter"
+            },{
+                "class": "icon-exit2"
+            },{
+                "class": "icon-inbox"
+            },{
+                "class": "icon-paperclip"
+            },{
+                "class": "icon-users"
+            },{
+                "class": "icon-briefcase"
+            },{
+                "class": "icon-bullhorn"
+            },{
+                "class": "icon-gear"
+            },{
+                "class": "icon-padlock"
+            },{
+                "class": "icon-clock-small"
+            },{
+                "class": "icon-delete"
+            },{
+                "class": "icon-inbox-cross"
+            },{
+                "class": "icon-inbox-checkmark"
+            },{
+                "class": "icon-spam"
+            },{
+                "class": "icon-sync"
+            },{
+                "class": "icon-arrow-up"
+            },{
+                "class": "icon-checkbox-check"
+            },{
+                "class": "icon-handle"
+            },{
+                "class": "icon-enter-down"
+            },{
+                "class": "icon-exit-up"
+            },{
+                "class": "icon-magnifier"
+            },{
+                "class": "icon-cross"
+            },{
+                "class": "icon-bounce"
+            },{
+                "class": "icon-virus"
+            },{
+                "class": "icon-graymail"
+            },{
+                "class": "icon-legit"
+            },{
+                "class": "icon-xls"
+            },{
+                "class": "icon-png"
+            },{
+                "class": "icon-link"
+            },{
+                "class": "icon-hand-stop"
+            },{
+                "class": "icon-csv"
+            },{
+                "class": "icon-add"
+            },{
+                "class": "icon-move"
+            },{
+                "class": "icon-move-handle"
+            },{
+                "class": "icon-edit"
+            },{
+                "class": "icon-diagnostic"
+            },{
+                "class": "icon-status-failed"
+            },{
+                "class": "icon-status-valid"
+            },{
+                "class": "icon-status-failed-outline"
+            },{
+                "class": "icon-upload"
+            },{
+                "class": "icon-file-add"
+            },{
+                "class": "icon-directory"
+            },{
+                "class": "icon-directory-checkmark"
+            },{
+                "class": "icon-download"
+            },{
+                "class": "icon-stacked-emails"
+            },{
+                "class": "icon-plug"
+            },{
+                "class": "icon-user-add"
+            },{
+                "class": "icon-pin"
+            },{
+                "class": "icon-minus"
+            },{
+                "class": "icon-time-back"
+            },{
+                "class": "icon-sync-cross"
+            },{
+                "class": "icon-internet"
+            },{
+                "class": "icon-backup"
+            },{
+                "class": "icon-redo"
+            },{
+                "class": "icon-box-full"
+            },{
+                "class": "icon-box"
+            },{
+                "class": "icon-list"
+            },{
+                "class": "icon-export"
+            },{
+                "class": "icon-cloud-check"
+            },{
+                "class": "icon-file-arrow-up"
+            },{
+                "class": "icon-globe"
+            },{
+                "class": "icon-google-plus"
+            },{
+                "class": "icon-hook"
+            },{
+                "class": "icon-inbox-classified"
+            },{
+                "class": "icon-linkedin"
+            },{
+                "class": "icon-twitter"
+            },{
+                "class": "icon-arrow-right-thin"
+            },{
+                "class": "icon-survey"
+            },{
+                "class": "icon-cloud"
+            },{
+                "class": "icon-gateway"
+            },{
+                "class": "icon-cloud-settings"
+            },{
+                "class": "icon-sdk"
+            },{
+                "class": "icon-location"
+            },{
+                "class": "icon-map"
+            },{
+                "class": "icon-phone"
+            },{
+                "class": "icon-fingerprint"
+            },{
+                "class": "icon-employees"
+            }
+        ]
+    }
+}

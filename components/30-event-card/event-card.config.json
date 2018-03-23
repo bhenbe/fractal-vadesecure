@@ -1,0 +1,11 @@
+{
+    "title": "Event card",
+    "status": "ready",
+    "default": "default",
+    "context": {
+        "title":"IT Meetings",
+        "start":"20 mars",
+        "end":"22 mars",
+        "excerpt":"IT & IT SECURITY MEETINGS est un salon business dédié aux professionnels de l’IT et de la sécurité (constructeurs, éditeurs, opérateurs télécoms), aux fournisseurs d’infrastructures, aux professionnels de la mobilité et aux experts de la sécurité informatique."
+    }
+}

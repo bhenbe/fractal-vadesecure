@@ -1,0 +1,9 @@
+{
+    "title": "Post card",
+    "status": "ready",
+    "default": "default",
+    "context": {
+        "title":"La sécurité des Emails dans Office 365 : forces et faiblesses",
+        "excerpt":"Vous souhaitez basculer vos emails vers Office 365 ? Avant de vous lancer, pensez à peser le pour et le contre de cette migration. Et n'oubliez pas de vous protéger contre les cyberattaques."
+    }
+}
