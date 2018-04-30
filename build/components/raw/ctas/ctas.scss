@@ -1,0 +1,62 @@
+.cta-row{
+    background-color: $clr-gray-darker;
+    color: $clr-white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    & > .container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    &__left{
+        width: 50%;
+        font-weight: 700;
+        line-height: 1.1;
+        font-size: 24px;
+    }
+
+    &__right{
+        width: 50%;
+        text-align: right;
+    }
+
+    &.cta-row--large{
+        position: relative;
+        height: 480px;
+        background: $clr-white url("https://picsum.photos/1200/800/?random") no-repeat center center;
+        background-size: cover;
+
+        &:before{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.8);
+            content: "";
+            z-index: 198;
+        }
+
+        & > .container{
+            position: relative;
+            height: 480px;
+            flex-flow: column wrap;
+            z-index: 200;
+        }
+
+        .cta-row__left,
+        .cta-row__right{
+            width: 100%;
+            text-align: center;
+        }
+
+        .cta-row__left{
+            font-size: 36px;
+            line-height: 1.4;
+            margin-bottom: 64px;
+        }
+    }
+}

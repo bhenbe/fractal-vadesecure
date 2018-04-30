@@ -1,0 +1,24 @@
+.blog-post{
+    border: 1px solid $clr-gray-red-light;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 28px;
+
+    &__picture{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__content{
+        padding: 16px;
+        
+        h2{
+            font-size: 24px;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}

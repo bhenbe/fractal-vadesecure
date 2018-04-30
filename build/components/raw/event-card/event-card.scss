@@ -1,0 +1,40 @@
+.event-card{
+    border: 1px solid $clr-gray-red-light;
+    max-width: 768px;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 28px;
+    transition: all .4s ease-in-out;
+
+    h2{
+        font-size: 32px;
+        margin: 0;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    &__dates,
+    &__excerpt{
+        font-size: 16px;
+    }
+
+    &__excerpt{
+        margin-top: 12px;
+        line-height: 1.1;
+    }
+
+    &:hover{
+        border-color: $clr-red;
+        background-color: $clr-red;
+        color: $clr-white;
+        transform: scale(1.1);
+
+        h2{
+            color: $clr-white;
+            a{
+                color: $clr-white;
+            }
+        }
+    }
+}

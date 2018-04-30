@@ -1,0 +1,104 @@
+@import url("https://use.typekit.net/cew4qah.css");
+
+body{
+	font-family: "proxima-nova",sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	color: $clr-gray-dark;
+}
+
+h1, h2, h3, h4, h5, h6{
+	position: relative;
+	margin-top: 0;
+	padding-bottom: 0.7em;
+	font-weight: 700;
+	line-height: 1.1;
+	color: $clr-gray-dark;
+	
+	& > span{
+		display: block;
+	}
+	
+	&.with-sub::before{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		display: block;
+		width: 3ch;
+		height: 0.3em;
+		content: "";
+		background-color: $clr-red;
+	}
+}
+
+h1{
+	font-size: 2.44em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.55em;
+}
+
+h4{
+	font-size: 1.33em;
+}
+
+h5{
+	font-size: 1.16em;
+}
+
+h6{
+	font-size: 1em;
+}
+
+p{
+	max-width: 64ch;
+}
+
+a{ 
+	color: $clr-red;
+	transition: color ease .4s;
+	
+	&:hover,
+	&:active,
+	&:focus{
+		color: $clr-gray-dark;
+	}
+}
+
+a.e-main{
+	position: relative;
+	display: inline-block;
+	font-size: .9em;
+	color: $clr-gray-dark;
+	padding-bottom: 1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+		
+	&::before{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		display: block;
+		width: 44px;
+		height: 8px;
+		content: "";
+		background-color: $clr-gray-light;
+		transition: all ease .4s;
+	}
+	
+	&:hover,
+	&:active,
+	&:focus{
+		color: $clr-gray;
+		
+		&::before{
+			width: 100%;
+			background-color: $clr-red;
+		}
+	}
+}

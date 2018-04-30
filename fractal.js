@@ -32,4 +32,4 @@ fractal.web.set('static.path', path.join(__dirname, 'public'));
 
 fractal.components.set('default.preview', '@preview');
 
-fractal.web.set('builder.dest', path.join(__dirname + 'build'));
+fractal.web.set('builder.dest', path.join(__dirname + '/build'));

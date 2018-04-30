@@ -1,0 +1,27 @@
+.button{
+	display: inline-block;
+	padding: 12px 28px;
+	font-size: .9em;
+	font-weight: 700;
+	text-decoration: none;
+	transition: background-color ease 1s;
+	background-color: $clr-red;
+	color: $clr-white;
+		
+	&:hover,
+	&:active,
+	&:focus{
+		color: $clr-white;
+		background-color: darken($clr-red, 10%);
+	}
+	
+	&--alt{
+		background-color: $clr-gray-dark;
+		
+		&:hover,
+		&:active,
+		&:focus{
+			background-color: darken($clr-gray-dark, 10%);
+		}
+	}
+}
