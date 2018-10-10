@@ -9,7 +9,9 @@
             "label": "Line",
             "context": {
                 "text": "Protégez votre messagerie autrement contre le phishing, malware, ransomware et les attaques ciblées",
-                "button": "Demander une démo"
+                "button": {
+                    "text": "Demander une démo"
+                }
             }
         },
         {
@@ -17,7 +19,9 @@
             "label": "Large",
             "context": {
                 "text": "Protégez votre messagerie autrement contre le phishing, malware, ransomware et les attaques ciblées",
-                "button": "Demander une démo"
+                "button": {
+                    "text": "Demander une démo"
+                }
             }
         }
     ]

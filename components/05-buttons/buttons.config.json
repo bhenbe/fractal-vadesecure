@@ -8,14 +8,18 @@
             "name": "default",
             "label": "Primary button",
             "context": {
-                "text": "Ceci est un bouton principal"
+                "button": {
+                    "text": "Ceci est un bouton principal"
+                }
             }
         },
         {
             "name": "alt",
             "label": "Alt button",
             "context": {
-                "text": "Ceci est un bouton secondaire"
+                "button": {
+                    "text": "Ceci est un bouton secondaire"
+                }
             }
         }
     ]

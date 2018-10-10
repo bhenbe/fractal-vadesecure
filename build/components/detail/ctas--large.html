@@ -181,7 +181,7 @@
 
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cta-row__left"</span>&gt;</span></span><span class="hljs-template-variable">{{ text }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cta-row__right"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button"</span>&gt;</span></span><span class="hljs-template-variable">{{ button }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cta-row__right"</span>&gt;</span></span><span class="hljs-template-variable">{{&gt; <a href="buttons.html">@buttons</a> }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
@@ -196,7 +196,9 @@
             
             <pre>{
   <span class="hljs-attr">"text"</span>: <span class="hljs-string">"Protégez votre messagerie autrement contre le phishing, malware, ransomware et les attaques ciblées"</span>,
-  <span class="hljs-attr">"button"</span>: <span class="hljs-string">"Demander une démo"</span>
+  <span class="hljs-attr">"button"</span>: {
+    <span class="hljs-attr">"text"</span>: <span class="hljs-string">"Demander une démo"</span>
+  }
 }</pre>
             
         
@@ -214,13 +216,13 @@
             <label class="FileBrowser-select-label" for="filebrowser-select">File:</label>
             <select class="FileBrowser-select" id="filebrowser-select">
                 
-                <option value="file-743d9dec77ae18692e17703b0f405354">ctas.scss</option>
+                <option value="file-7423cd409598104fa1357c9636c3026e">ctas.scss</option>
                 
             </select>
         </div>
 
         
-        <div class="FileBrowser-item is-active" id="file-743d9dec77ae18692e17703b0f405354" data-role="resource-preview">
+        <div class="FileBrowser-item is-active" id="file-7423cd409598104fa1357c9636c3026e" data-role="resource-preview">
             <ul class="Meta">
                 <li class="Meta-item">
                     <strong class="Meta-key">Content:</strong>
@@ -363,6 +365,15 @@
             <strong class="Meta-key">Filesystem Path:</strong>
             <span class="Meta-value">components/15-ctas/ctas--large.hbs</span>
         </li>
+        
+        <li class="Meta-item">
+            <strong class="Meta-key">References <em class="Meta-count">(1)</em>:</strong>
+            <span class="Meta-value Meta-value--linkList">
+            
+                <a href="buttons.html">@<span>buttons</span></a>
+            
+            </span>
+        </li class="Meta-item">
         
         
     </ul>
