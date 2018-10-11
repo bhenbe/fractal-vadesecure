@@ -1,64 +1,99 @@
 <h2>Brand colors</h2>
 
-<ul class="color-cards-list">
+<section class="color-list">
 {{#each brand-colors}}
-    <li>
-        <span class="color-viewer" style="background-color: {{ code }}"></span>
-        <span class="color-label">
-            {{ code }}<br>{{ name }}
-        </span>
-    </li>
+    <article class="color-card" style="--bgcolor: {{ code }};--txtcolor: {{ text-code }};">
+        <h2 class="color-card__name">{{ name }}</h2>
+		<span class="color-card__code">
+			<span class="color-card__code-label">{{ code }}</span>
+			<a href="#" class="color-card__code-switcher" data-color="{{ code }}" data-type="hex">hsl</a></span>
+		
+		<p class="color-card__font-name">{{ text-name }}</p>
+		<span class="color-card__font-code">
+			<span class="color-card__code-label">{{ text-code }}</span> 
+			<a href="#" class="color-card__code-switcher" data-color="{{ text-code }}" data-type="hex">hsl</a></span>
+		
+		<span class="color-card__contrast">{{ a11y }}</span>
+    </article>
 {{/each}}
-</ul>
+</section>
 
 <h2>Gray</h2>
 
-<ul class="color-cards-list">
+<section class="color-list">
 {{#each gray-colors}}
-    <li>
-        <span class="color-viewer" style="background-color: {{ code }}"></span>
-        <span class="color-label">
-            {{ code }}<br>{{ name }}
-        </span>
-    </li>
+    <article class="color-card" style="--bgcolor: {{ code }};--txtcolor: {{ text-code }};">
+        <h2 class="color-card__name">{{ name }}</h2>
+		<span class="color-card__code">
+			<span class="color-card__code-label">{{ code }}</span>
+			<a href="#" class="color-card__code-switcher" data-color="{{ code }}" data-type="hex">hsl</a></span>
+		
+		<p class="color-card__font-name">{{ text-name }}</p>
+		<span class="color-card__font-code">
+			<span class="color-card__code-label">{{ text-code }}</span> 
+			<a href="#" class="color-card__code-switcher" data-color="{{ text-code }}" data-type="hex">hsl</a></span>
+		
+		<span class="color-card__contrast">{{ a11y }}</span>
+    </article>
 {{/each}}
-</ul>
+</section>
 
 <h2>Red</h2>
 
-<ul class="color-cards-list">
+<section class="color-list">
 {{#each red-colors}}
-    <li>
-        <span class="color-viewer" style="background-color: {{ code }}"></span>
-        <span class="color-label">
-            {{ code }}<br>{{ name }}
-        </span>
-    </li>
+    <article class="color-card" style="--bgcolor: {{ code }};--txtcolor: {{ text-code }};">
+        <h2 class="color-card__name">{{ name }}</h2>
+		<span class="color-card__code">
+			<span class="color-card__code-label">{{ code }}</span>
+			<a href="#" class="color-card__code-switcher" data-color="{{ code }}" data-type="hex">hsl</a></span>
+		
+		<p class="color-card__font-name">{{ text-name }}</p>
+		<span class="color-card__font-code">
+			<span class="color-card__code-label">{{ text-code }}</span> 
+			<a href="#" class="color-card__code-switcher" data-color="{{ text-code }}" data-type="hex">hsl</a></span>
+		
+		<span class="color-card__contrast">{{ a11y }}</span>
+    </article>
 {{/each}}
-</ul>
+</section>
 
 <h2>Green</h2>
 
-<ul class="color-cards-list">
+<section class="color-list">
 {{#each green-colors}}
-    <li>
-        <span class="color-viewer" style="background-color: {{ code }}"></span>
-        <span class="color-label">
-            {{ code }}<br>{{ name }}
-        </span>
-    </li>
+    <article class="color-card" style="--bgcolor: {{ code }};--txtcolor: {{ text-code }};">
+        <h2 class="color-card__name">{{ name }}</h2>
+		<span class="color-card__code">
+			<span class="color-card__code-label">{{ code }}</span>
+			<a href="#" class="color-card__code-switcher" data-color="{{ code }}" data-type="hex">hsl</a></span>
+		
+		<p class="color-card__font-name">{{ text-name }}</p>
+		<span class="color-card__font-code">
+			<span class="color-card__code-label">{{ text-code }}</span> 
+			<a href="#" class="color-card__code-switcher" data-color="{{ text-code }}" data-type="hex">hsl</a></span>
+		
+		<span class="color-card__contrast">{{ a11y }}</span>
+    </article>
 {{/each}}
-</ul>
+</section>
 
 <h2>Illustration</h2>
 
-<ul class="color-cards-list">
+<section class="color-list">
 {{#each illustration-colors}}
-    <li>
-        <span class="color-viewer" style="background-color: {{ code }}"></span>
-        <span class="color-label">
-            {{ code }}<br>{{ name }}
-        </span>
-    </li>
+    <article class="color-card" style="--bgcolor: {{ code }};--txtcolor: {{ text-code }};">
+        <h2 class="color-card__name">{{ name }}</h2>
+		<span class="color-card__code">
+			<span class="color-card__code-label">{{ code }}</span>
+			<a href="#" class="color-card__code-switcher" data-color="{{ code }}" data-type="hex">hsl</a></span>
+		
+		<p class="color-card__font-name">{{ text-name }}</p>
+		<span class="color-card__font-code">
+			<span class="color-card__code-label">{{ text-code }}</span> 
+			<a href="#" class="color-card__code-switcher" data-color="{{ text-code }}" data-type="hex">hsl</a></span>
+		
+		<span class="color-card__contrast">{{ a11y }}</span>
+    </article>
 {{/each}}
-</ul>
+</section>

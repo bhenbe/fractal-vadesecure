@@ -4,86 +4,164 @@
     "context": {
         "brand-colors": [{
             "name": "$clr-red",
-            "code": "#D61F29"
+            "code": "#D61F29",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-gray",
-            "code": "#5F5F60"
+            "code": "#5F5F60",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         }],
         "gray-colors": [{
             "name": "$clr-gray-lightest",
-            "code": "#F2F2F2"
+            "code": "#F2F2F2",
+            "text-name": "$clr-gray",
+            "text-code": "#5F5F60",
+            "a11y": "AAA"
         },{
             "name": "$clr-gray-red-light",
-            "code": "#f0efeb"
+            "code": "#f0efeb",
+            "text-name": "$clr-gray",
+            "text-code": "#5F5F60",
+            "a11y": "AAA"
         },{
             "name": "$clr-gray-red-medium",
-            "code": "#cdccc6"
+            "code": "#cdccc6",
+            "text-name": "$clr-gray",
+            "text-code": "#5F5F60",
+            "a11y": "AAA"
         },{
             "name": "$clr-gray",
-            "code": "#5F5F60"
+            "code": "#5F5F60",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-gray-dark",
-            "code": "#3b3434"
+            "code": "#3b3434",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-gray-darkest",
-            "code": "#1a1818"
+            "code": "#1a1818",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         }],
         "red-colors": [{
             "name": "$clr-red",
-            "code": "#D61F29"
+            "code": "#D61F29",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-red-dark",
-            "code": "#A81E25"
+            "code": "#A81E25",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         }],
         "green-colors": [{
             "name": "$clr-green-dark",
-            "code": "#459d50"
+            "code": "#459d50",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-green",
-            "code": "#50b55f"
+            "code": "#50b55f",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         }],
         "illustration-colors": [{
             "name": "$clr-blue-dark",
-            "code": "#4b7d9b"
+            "code": "#4b7d9b",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-blue",
-            "code": "#679ec8"
+            "code": "#679ec8",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-green-dark",
-            "code": "#459d50"
+            "code": "#459d50",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-green",
-            "code": "#50b55f"
+            "code": "#50b55f",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-orange-dark",
-            "code": "#db6d22"
+            "code": "#db6d22",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-orange",
-            "code": "#ef8c49"
+            "code": "#ef8c49",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-red-dark",
-            "code": "#c1444a"
+            "code": "#c1444a",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-red-darker",
-            "code": "#a23035"
+            "code": "#a23035",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-red-darkest",
-            "code": "#802a2e"
+            "code": "#802a2e",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-red-lighter",
-            "code": "#eb7272"
+            "code": "#eb7272",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-red-lightest",
-            "code": "#f69696"
+            "code": "#f69696",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-red-medium",
-            "code": "#e25455"
+            "code": "#e25455",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-yellow-dark",
-            "code": "#dd9d36"
+            "code": "#dd9d36",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         },{
             "name": "$clr-yellow",
-            "code": "#ffbb43"
+            "code": "#ffbb43",
+            "text-name": "$clr-white",
+            "text-code": "#fff",
+            "a11y": "AAA"
         }]
     }
 }

@@ -159,184 +159,366 @@
         
         <pre><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Brand colors<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #D61F29"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #D61F29<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #5F5F60"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #5F5F60<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-gray
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #D61F29;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#D61F29<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#D61F29"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #5F5F60;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-gray<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#5F5F60<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#5F5F60"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Gray<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #F2F2F2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #F2F2F2<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-gray-lightest
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #f0efeb"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #f0efeb<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-gray-red-light
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #cdccc6"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #cdccc6<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-gray-red-medium
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #5F5F60"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #5F5F60<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-gray
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #3b3434"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #3b3434<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-gray-dark
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #1a1818"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #1a1818<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-gray-darkest
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #F2F2F2;--txtcolor: #5F5F60;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-gray-lightest<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#F2F2F2<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#F2F2F2"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-gray<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#5F5F60<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#5F5F60"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #f0efeb;--txtcolor: #5F5F60;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-gray-red-light<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#f0efeb<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#f0efeb"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-gray<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#5F5F60<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#5F5F60"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #cdccc6;--txtcolor: #5F5F60;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-gray-red-medium<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#cdccc6<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#cdccc6"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-gray<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#5F5F60<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#5F5F60"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #5F5F60;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-gray<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#5F5F60<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#5F5F60"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #3b3434;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-gray-dark<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#3b3434<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#3b3434"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #1a1818;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-gray-darkest<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#1a1818<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#1a1818"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Red<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #D61F29"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #D61F29<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #A81E25"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #A81E25<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red-dark
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #D61F29;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#D61F29<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#D61F29"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #A81E25;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red-dark<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#A81E25<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#A81E25"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Green<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #459d50"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #459d50<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-green-dark
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #50b55f"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #50b55f<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-green
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #459d50;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-green-dark<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#459d50<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#459d50"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #50b55f;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-green<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#50b55f<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#50b55f"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Illustration<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #4b7d9b"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #4b7d9b<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-blue-dark
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #679ec8"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #679ec8<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-blue
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #459d50"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #459d50<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-green-dark
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #50b55f"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #50b55f<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-green
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #db6d22"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #db6d22<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-orange-dark
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #ef8c49"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #ef8c49<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-orange
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #c1444a"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #c1444a<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red-dark
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #a23035"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #a23035<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red-darker
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #802a2e"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #802a2e<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red-darkest
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #eb7272"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #eb7272<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red-lighter
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #f69696"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #f69696<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red-lightest
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #e25455"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #e25455<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-red-medium
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #dd9d36"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #dd9d36<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-yellow-dark
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: #ffbb43"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            #ffbb43<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>$clr-yellow
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></pre>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #4b7d9b;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-blue-dark<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#4b7d9b<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#4b7d9b"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #679ec8;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-blue<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#679ec8<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#679ec8"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #459d50;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-green-dark<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#459d50<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#459d50"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #50b55f;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-green<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#50b55f<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#50b55f"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #db6d22;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-orange-dark<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#db6d22<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#db6d22"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #ef8c49;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-orange<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#ef8c49<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#ef8c49"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #c1444a;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red-dark<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#c1444a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#c1444a"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #a23035;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red-darker<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#a23035<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#a23035"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #802a2e;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red-darkest<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#802a2e<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#802a2e"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #eb7272;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red-lighter<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#eb7272<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#eb7272"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #f69696;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red-lightest<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#f69696<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#f69696"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #e25455;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-red-medium<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#e25455<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#e25455"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #dd9d36;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-yellow-dark<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#dd9d36<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#dd9d36"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: #ffbb43;--txtcolor: #fff;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span>$clr-yellow<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#ffbb43<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#ffbb43"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span>$clr-white<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span>#fff<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"#fff"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span>AAA<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span></pre>
         
     </code>
 </div>
@@ -346,68 +528,103 @@
     <code class="Code Code--lang-handlebars">
         <pre><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Brand colors<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
 </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">each</span></span> brand-colors}}</span><span class="xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            </span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml">
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;--txtcolor: </span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> 
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span></span><span class="hljs-template-variable">{{ a11y }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
 </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">each</span></span>}}</span><span class="xml">
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Gray<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
 </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">each</span></span> gray-colors}}</span><span class="xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            </span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml">
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;--txtcolor: </span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> 
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span></span><span class="hljs-template-variable">{{ a11y }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
 </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">each</span></span>}}</span><span class="xml">
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Red<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
 </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">each</span></span> red-colors}}</span><span class="xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            </span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml">
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;--txtcolor: </span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> 
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span></span><span class="hljs-template-variable">{{ a11y }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
 </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">each</span></span>}}</span><span class="xml">
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Green<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
 </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">each</span></span> green-colors}}</span><span class="xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            </span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml">
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;--txtcolor: </span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> 
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span></span><span class="hljs-template-variable">{{ a11y }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
 </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">each</span></span>}}</span><span class="xml">
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Illustration<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-cards-list"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-list"</span>&gt;</span>
 </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">each</span></span> illustration-colors}}</span><span class="xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-viewer"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-color: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-label"</span>&gt;</span>
-            </span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml">
-        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"--bgcolor: </span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;--txtcolor: </span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">;"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__name"</span>&gt;</span></span><span class="hljs-template-variable">{{ name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-name"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__font-code"</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-label"</span>&gt;</span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> 
+			<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__code-switcher"</span> <span class="hljs-attr">data-color</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ text-code }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">data-type</span>=<span class="hljs-string">"hex"</span>&gt;</span>hsl<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+		
+		<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"color-card__contrast"</span>&gt;</span></span><span class="hljs-template-variable">{{ a11y }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
 </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">each</span></span>}}</span><span class="xml">
-<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></span></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span></span></pre>
     </code>
 </div>
 
@@ -420,115 +637,193 @@
   <span class="hljs-attr">"brand-colors"</span>: [
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#D61F29"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#D61F29"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-gray"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#5F5F60"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#5F5F60"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     }
   ],
   <span class="hljs-attr">"gray-colors"</span>: [
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-gray-lightest"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#F2F2F2"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#F2F2F2"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-gray"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#5F5F60"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-gray-red-light"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#f0efeb"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#f0efeb"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-gray"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#5F5F60"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-gray-red-medium"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#cdccc6"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#cdccc6"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-gray"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#5F5F60"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-gray"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#5F5F60"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#5F5F60"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-gray-dark"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#3b3434"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#3b3434"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-gray-darkest"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#1a1818"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#1a1818"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     }
   ],
   <span class="hljs-attr">"red-colors"</span>: [
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#D61F29"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#D61F29"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red-dark"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#A81E25"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#A81E25"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     }
   ],
   <span class="hljs-attr">"green-colors"</span>: [
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-green-dark"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#459d50"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#459d50"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-green"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#50b55f"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#50b55f"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     }
   ],
   <span class="hljs-attr">"illustration-colors"</span>: [
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-blue-dark"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#4b7d9b"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#4b7d9b"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-blue"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#679ec8"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#679ec8"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-green-dark"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#459d50"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#459d50"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-green"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#50b55f"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#50b55f"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-orange-dark"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#db6d22"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#db6d22"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-orange"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#ef8c49"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#ef8c49"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red-dark"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#c1444a"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#c1444a"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red-darker"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#a23035"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#a23035"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red-darkest"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#802a2e"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#802a2e"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red-lighter"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#eb7272"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#eb7272"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red-lightest"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#f69696"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#f69696"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-red-medium"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#e25455"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#e25455"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-yellow-dark"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#dd9d36"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#dd9d36"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     },
     {
       <span class="hljs-attr">"name"</span>: <span class="hljs-string">"$clr-yellow"</span>,
-      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#ffbb43"</span>
+      <span class="hljs-attr">"code"</span>: <span class="hljs-string">"#ffbb43"</span>,
+      <span class="hljs-attr">"text-name"</span>: <span class="hljs-string">"$clr-white"</span>,
+      <span class="hljs-attr">"text-code"</span>: <span class="hljs-string">"#fff"</span>,
+      <span class="hljs-attr">"a11y"</span>: <span class="hljs-string">"AAA"</span>
     }
   ]
 }</pre>
