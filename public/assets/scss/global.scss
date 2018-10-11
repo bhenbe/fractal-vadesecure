@@ -67,6 +67,7 @@ html {
 		}
 		
 		.color-card__code-switcher{
+			float: right;
 			display: inline-block;
 			color: var(--txtcolor, #fff);
 		}

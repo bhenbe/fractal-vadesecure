@@ -71,6 +71,7 @@ body {
 }
 
 .color-list .color-card .color-card__code-switcher {
+  float: right;
   display: inline-block;
   color: var(--txtcolor, #fff);
 }

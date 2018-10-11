@@ -72,6 +72,7 @@ body {
 }
 
 .color-list .color-card .color-card__code-switcher {
+  float: right;
   display: inline-block;
   color: var(--txtcolor, #fff);
 }
@@ -824,8 +825,20 @@ a.e-main:hover::before, a.e-main:active::before, a.e-main:focus::before {
 }
 
 .cta-row__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 50%;
-  text-align: right;
+}
+
+.cta-row__right > * {
+  height: auto;
 }
 
 .cta-row.cta-row--large {
