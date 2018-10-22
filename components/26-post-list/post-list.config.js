@@ -3,10 +3,10 @@
 const request = require('request-promise'); // require the request-promise module
 
 // make the request to the API, returns a Promise
-var options = {
+/*var options = {
     uri: 'https://jsonplaceholder.typicode.com/photos?_start=0&_limit=20',
     json: true // Automatically parses the JSON string in the response
-};
+};*/
 
 // do some post-processing on the response to wrangle it into the correct format
 /*var response = request(options).then(function (testApiData) {
@@ -21,7 +21,7 @@ var options = {
     return testData;
 }).catch(function (err) {
     console.log(err);
-});*/
+});*/ 
 
 var response = [ { title: 'accusamus beatae ad facilis cum similique qui sunt',
 url: 'https://via.placeholder.com/600/92c952' },
