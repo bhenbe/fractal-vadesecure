@@ -9,8 +9,8 @@ var options = {
 };
 
 // do some post-processing on the response to wrangle it into the correct format
-var testData = [];
-request(options).then(function (testApiData) {
+var response = request(options).then(function (testApiData) {
+    var testData = [];
     for (let test of testApiData) {
         testData.push({
             title: test.title,
@@ -27,6 +27,6 @@ module.exports = {
     status: "ready",
     default: "default",
 	context: {
-		posts: testData // use the response as context data for our template.
+		posts: response // use the response as context data for our template.
 	}
 };
