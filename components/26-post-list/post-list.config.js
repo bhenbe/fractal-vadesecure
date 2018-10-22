@@ -4,13 +4,13 @@ const request = require('request-promise'); // require the request-promise modul
 
 // make the request to the API, returns a Promise
 var options = {
-    uri: 'https://jsonplaceholder.typicode.com/photos?_start=0&_limit=200',
+    uri: 'https://jsonplaceholder.typicode.com/photos?_start=0&_limit=20',
     json: true // Automatically parses the JSON string in the response
 };
 
 // do some post-processing on the response to wrangle it into the correct format
 var response = request(options).then(function (testApiData) {
-    var testData = [];
+    const testData = [];
     for (let test of testApiData) {
         testData.push({
             title: test.title,
